@@ -1,0 +1,21 @@
+{
+    "name": "vscode-theme-template",
+    "displayName": "vscode-theme-template",
+    "description": "A template for creating your own VS Code theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "vs-theme-template",
+                "uiTheme": "vs",
+                "path": "./themes/vs-theme-template-color-theme.json"
+            }
+        ]
+    }
+}
